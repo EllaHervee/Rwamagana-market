@@ -51,6 +51,7 @@ h2{font-family:var(--display);font-weight:800;font-size:clamp(1.8rem,4vw,2.6rem)
 .info{padding:16px 18px 18px;display:flex;flex-direction:column;gap:4px;flex:1}
 .info h3{font-family:var(--display);font-size:1.2rem;font-weight:700}
 .info p{color:var(--muted);font-size:.93rem}
+.info .price{color:var(--forest);font-weight:700}
 .info .btn{margin-top:auto;background:var(--forest);color:#fff;width:100%}
 .info .btn:hover{background:var(--leaf)}
 .info .tag{margin-bottom:12px}
@@ -76,4 +77,4 @@ footer .wrap{align-items:center;display:flex;justify-content:space-between;gap:1
     nav a:not(.call){display:none}
   section{padding:48px 0}
 }
-@media (max-width:420px){.grid{grid-template-columns:1fr 1fr;gap:12px}.info{padding:12px}.info h3{font-size:1rem}.info p{display:none}.info .tag{margin-bottom:8px}}
+@media (max-width:420px){.grid{grid-template-columns:1fr 1fr;gap:12px}.info{padding:12px}.info h3{font-size:1rem}.info p{display:none}.info .tag{margin-bottom:8px}.info .price{display:block}}
